@@ -1,5 +1,5 @@
 class RoomsController < ApplicationController
   def new
-    @rooms = Room.new
+    @room = Room.new
   end
 end
